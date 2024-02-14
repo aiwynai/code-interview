@@ -31,7 +31,7 @@ public class EngagementController {
     private final IEngagementDocumentRepository engagementDocumentRepository;
     private final IEngagementDocumentContactRepository engagementDocumentContactRepository;
 
-    public EngagementService(IEngagementRepository engagementRepository, 
+    public EngagementController(IEngagementRepository engagementRepository, 
                              IEngagementLetterRepository engagementLetterRepository, 
                              IEngagementDocumentRepository engagementDocumentRepository, 
                              IEngagementDocumentContactRepository engagementDocumentContactRepository) {
